@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.site-init{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: rgba(224, 235, 245, 0.664);
+    color: black;
+}
+
+.site-init h1{
+    font-weight: 300;
+}
+
+nav{
+    color: black;
+    text-decoration: none;
+    margin-right: 2rem;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+main .login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(185, 185, 53);
+    height: 15rem;
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+input{
+    width: 15rem;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+
+button{
+    padding: 0.5rem;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+
+/*This is for the register page*/
+
+.site-register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:auto;
+    background-color: rgba(224, 235, 245, 0.664);
+    color: black;
+}
+
+.form-container{
+    display: flex;
+    column-gap: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(233, 233, 112);
+    height: auto;
+    width: auto;
+}
+
+
+
+.input-error{
+    border: 1px solid red;
+}
